@@ -11,12 +11,12 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="indexScripts.js"></script>	
 </head>
 
 <body>
 
 	<div class="titre">Formulaire à remplir</div>
-
 	
 	
 <form>
@@ -49,7 +49,7 @@
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="ville">Ville</label>
-      <input type="text" class="form-control" id="ville">
+      <input type="text" class="form-control" id="ville" pattern="\D+">
     </div>
 
     <div class="form-group col-md-2">
