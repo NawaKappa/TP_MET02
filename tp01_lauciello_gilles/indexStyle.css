@@ -1,4 +1,10 @@
-p {
-color: orange;
-text-align: center;
+body {
+	padding : 10%;
+	padding-top : 5%;
+}
+
+.titre {
+	font-size: 25px;
+	text-align: center;
+	margin : 5%;
 }
